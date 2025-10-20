@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = (req, res) => {
   res.status(200).send(`
     <html>
       <head><title>Terms of Service</title></head>
@@ -9,4 +9,5 @@ export default function handler(req, res) {
       </body>
     </html>
   `);
-}
+};
+
